@@ -1,9 +1,27 @@
 .presentation {
     display: flex;
+    justify-content: space-between;
+    margin: 6rem 16rem;
     &__text {
         text-align: center;
+        width: 45%;
         &-paragraphe {
             margin-top: 1.2rem;
         }
+        &-buttons {
+                margin: 2rem 7rem;
+                justify-content: space-between;
+                display: flex;
+                &--container {
+                    padding: 1rem;
+                    border-radius: 2rem;
+                    border: none;
+                    background-color: #58A4E5;
+                }
+        }
     }
+    &__image {
+            width: 40%;
+            object-fit: cover;
+        }
 }

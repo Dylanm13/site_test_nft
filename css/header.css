@@ -1,9 +1,11 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem;
 }
-header .logo img {
-  width: 50%;
+header .logo {
+  width: 10%;
 }
 header .nav__bar {
   display: flex;
