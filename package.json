@@ -1,0 +1,19 @@
+{
+  "name": "site_test_nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylanm13/site_test_nft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylanm13/site_test_nft/issues"
+  },
+  "homepage": "https://github.com/Dylanm13/site_test_nft#readme"
+}
