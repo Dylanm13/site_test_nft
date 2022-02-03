@@ -1,3 +1,15 @@
 header {
     display: flex;
+    justify-content: space-between;
+    .logo {   
+        img {    
+            width: 50%;
+        }
+    }
+    .nav__bar {
+        display: flex;
+        &-text {
+            margin-left: 2rem;
+        }
+    }
 }

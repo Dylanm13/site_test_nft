@@ -12,14 +12,4 @@ header .nav__bar-text {
   margin-left: 2rem;
 }
 
-.presentation {
-  display: flex;
-}
-.presentation__text {
-  text-align: center;
-}
-.presentation__text-paragraphe {
-  margin-top: 1.2rem;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=header.css.map */

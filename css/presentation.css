@@ -1,0 +1,11 @@
+.presentation {
+  display: flex;
+}
+.presentation__text {
+  text-align: center;
+}
+.presentation__text-paragraphe {
+  margin-top: 1.2rem;
+}
+
+/*# sourceMappingURL=presentation.css.map */

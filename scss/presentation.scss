@@ -1,0 +1,9 @@
+.presentation {
+    display: flex;
+    &__text {
+        text-align: center;
+        &-paragraphe {
+            margin-top: 1.2rem;
+        }
+    }
+}
