@@ -6,7 +6,7 @@
   text-align: center;
 }
 .presentation__text-buttons {
-  margin: 1rem 8rem;
+  margin: 1rem 0rem;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
