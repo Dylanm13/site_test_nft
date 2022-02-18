@@ -1,15 +1,22 @@
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    .logo {
+        width: 35%;
+    }
+}
+
+@media (min-width: 60rem) {
+header {
     padding: 0rem 6rem;
     .logo {    
          width: 10%;
     }
     .nav__bar {
         display: flex;
-        &-text {
-            margin-left: 2rem;
-        }
+        gap: 2rem;
     }
+}
 }

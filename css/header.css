@@ -1,17 +1,24 @@
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0rem 6rem;
+  justify-content: space-between;
+  padding: 0rem 1rem;
 }
 header .logo {
-  width: 10%;
+  width: 35%;
 }
-header .nav__bar {
-  display: flex;
-}
-header .nav__bar-text {
-  margin-left: 2rem;
+
+@media (min-width: 60rem) {
+  header {
+    padding: 0rem 6rem;
+  }
+  header .logo {
+    width: 10%;
+  }
+  header .nav__bar {
+    display: flex;
+    gap: 2rem;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
